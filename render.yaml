@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: whatsapp-bot-buttons
+    env: node
+    buildCommand: npm install
+    startCommand: node server.js
+    plan: free
+    envVars:
+      - key: NODE_VERSION
+        value: 18.17.0
+    disk:
+      name: auth-storage
+      mountPath: /opt/render/project/src/auth_info
+      sizeGB: 1

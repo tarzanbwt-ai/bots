@@ -1,0 +1,13 @@
+{
+  "name": "whatsapp-bot-buttons",
+  "version": "1.1.0",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.6.0",
+    "express": "^4.18.2",
+    "qrcode": "^1.5.3",
+    "socket.io": "^4.7.2",
+    "dotenv": "^16.3.1",
+    "fs-extra": "^11.1.1",
+    "pino": "^8.16.0"
+  }
+}
